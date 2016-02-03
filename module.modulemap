@@ -5,7 +5,7 @@ module CSQLiteLinux [system] {
 }
 
 module CSQLiteMac [system] {
-    header "/opt/local/include/sqlite3.h"
+    header "/usr/local/opt/sqlite/include/sqlite3.h"
     link "sqlite3"
     export *
 }
